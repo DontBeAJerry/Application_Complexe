@@ -1,6 +1,6 @@
 # Preuve de concept
 
-> [Dépôt GitHub du projet][https://github.com/DontBeAJerry/Application_Complexe]
+> [Dépôt GitHub du projet](https://github.com/DontBeAJerry/Application_Complexe)
 
 ## Introduction 
 
@@ -18,7 +18,7 @@ Google nous indique par ailleurs que son service Maps utilise plusieurs types de
 > - **Wi-Fi** : l'emplacement des réseaux Wi-Fi alentour aide Maps à vous situer.
 > - **Relais de téléphonie mobile** : la précision d'une connexion à un réseau mobile est de quelques kilomètres.
 >
-> [Déterminer votre position et en améliorer la précision][https://support.google.com/maps/answer/2839911?co=GENIE.Platform%3DAndroid&hl=fr] - *support.google.com*
+> [Déterminer votre position et en améliorer la précision](https://support.google.com/maps/answer/2839911?co=GENIE.Platform%3DAndroid&hl=fr) - *support.google.com*
 
 
 
@@ -69,7 +69,7 @@ Les atténuateurs peuvent être n'importe quoi, de l'humidité et des précipita
 >
 > En extérieur, le modèle "Two-Rays Ground Reflected Model" est utilisé tandis qu'en milieu industriel est utilisé le "Log-distance path loss model". 
 >
-> [Path Loss (Propagation) Models][https://www.bluetooth.com/wp-content/uploads/Files/Marketing/range-assumptions.pdf] - Bluetooth SIG
+> [Path Loss (Propagation) Models](https://www.bluetooth.com/wp-content/uploads/Files/Marketing/range-assumptions.pdf) - Bluetooth SIG
 
 
 
@@ -123,7 +123,7 @@ Le principe de chaque application se rapproche du processus suivant :
 
 ### Programme Java Desktop
 
-> [Dépôt GitHub de l'application][https://github.com/DontBeAJerry/Application_Complexe/tree/master/AppComplexe]
+> [Dépôt GitHub de l'application](https://github.com/DontBeAJerry/Application_Complexe/tree/master/AppComplexe)
 
 Cette partie est la plus triviale. Nous utilisons un langage disposant d'API très large permettant d'utiliser énormément de fonctionnalités de l'appareil, ici le Bluetooth. 
 
@@ -143,6 +143,8 @@ Pour contrer cette limitation technique, l'idéal est de passer directement par 
 
 ### Application Flutter + Flutter Blue
 
+> [Dépôt GitHub de l'application](https://github.com/DontBeAJerry/Application_Complexe/tree/master/AppComplexe)
+
 Flutter Blue est une API permettant la gestion du Bluetooth via le Framework Flutter. 
 
 
@@ -153,7 +155,7 @@ Flutter Blue est une API permettant la gestion du Bluetooth via le Framework Flu
 
 Le terminal qui nous intéresse ici est celui ayant l'adresse `42:62:D9:7C:C8:89`. 
 
-Nous pouvons voir sur la colonne de gauche le RSSI mesuré, ici -23dBm et sur la colonne de droite la distance estimée. Sa description nous indique que l'ID du constructeur est `4C`, ce qui correspond à un appareil Apple d'après [l'identifiant constructeur Bluetooth][https://www.bluetooth.com/specifications/assigned-numbers/company-identifiers/].
+Nous pouvons voir sur la colonne de gauche le RSSI mesuré, ici -23dBm et sur la colonne de droite la distance estimée. Sa description nous indique que l'ID du constructeur est `4C`, ce qui correspond à un appareil Apple d'après [l'identifiant constructeur Bluetooth](https://www.bluetooth.com/specifications/assigned-numbers/company-identifiers/).
 
 D'après notre estimation, les deux terminaux se trouvent à 1,19m de distance. Cependant, ils sont en réalité espacé de quelques centimètres. Nous remarquons alors la limite de notre estimation : certains paramètres ne sont pas pris en compte :
 
