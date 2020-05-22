@@ -96,7 +96,7 @@ Avec :
 
 
 
-<img src="https://i.ibb.co/0V5pF9q/Screenshot-1.png" alt="Screenshot-1" border="0">
+<p align="center"><img src="https://i.ibb.co/0V5pF9q/Screenshot-1.png" alt="Screenshot-1" border="0"></p>
 
 <p align="center">Graphique de portée du Bluetooth en fonction du RSSI dans un espace habitable</p>
 
@@ -127,7 +127,7 @@ Le principe de chaque application se rapproche du processus suivant :
 
 Cette partie est la plus triviale. Nous utilisons un langage disposant d'API très large permettant d'utiliser énormément de fonctionnalités de l'appareil, ici le Bluetooth. 
 
-<img src="https://i.ibb.co/3zQ8PyV/desktop-App-Result.png" alt="desktop-App-Result" border="0">
+<p align="center"><img src="https://i.ibb.co/3zQ8PyV/desktop-App-Result.png" alt="desktop-App-Result" border="0"></p>
 
 <p align="center">Output du Scan Bluetooth</p>
 
@@ -149,7 +149,7 @@ Flutter Blue est une API permettant la gestion du Bluetooth via le Framework Flu
 
 
 
-<img src="https://i.ibb.co/JBNNr4X/Screenshot-20200522-120653-com-pauldemarco-flutter-blue-example.jpg" alt="Screenshot-20200522-120653-com-pauldemarco-flutter-blue-example" border="0" height="500">
+<p align="center"><img src="https://i.ibb.co/JBNNr4X/Screenshot-20200522-120653-com-pauldemarco-flutter-blue-example.jpg" alt="Screenshot-20200522-120653-com-pauldemarco-flutter-blue-example" border="0" height="500"></p>
 
 <p align="center">Application d'estimation de distance</p>
 
@@ -167,7 +167,7 @@ Et d'autre ne sont pas assez précis :
 
 - Le RSSI fluctuant sans changer de distance, à cause du bruit ambiant. 
 
-  <img src="https://i.ibb.co/CtJkhMW/rssi-fluctuation.png" alt="rssi-fluctuation" border="0" height="500">
+  <p align="center"><img src="https://i.ibb.co/CtJkhMW/rssi-fluctuation.png" alt="rssi-fluctuation" border="0" height="500"></p>
 
 <p align="center">Différence de 40cm sans déplacer les appareils</p>
 
@@ -188,7 +188,7 @@ Dans un cas applicatif concret, nous obtenons les mesures suivantes :
 
 
 
-<img src="https://i.ibb.co/82Wyx8F/Screenshot-5.png" alt="Screenshot-5" border="0">
+<p align="center"><img src="https://i.ibb.co/82Wyx8F/Screenshot-5.png" alt="Screenshot-5" border="0"></p>
 
 <p align="center">Graphiques des valeurs mesurée et théoriques par rapport à la fonction distance</p>
 
