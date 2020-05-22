@@ -73,7 +73,7 @@ Les atténuateurs peuvent être n'importe quoi, de l'humidité et des précipita
 
 
 
-### Calcul de la portée
+### Calcul de la distance
 
 La norme Bluetooth précise  : 
 
